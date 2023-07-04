@@ -4,7 +4,7 @@ import '../../../../core/error/failures.dart';
 import '../entities/number_trivia.dart';
 
 //**
-//Repositories: Definition/repository/(je veux getNumber de type Future<...>) dans "domaine" ... implementation dans "data"
+//Repositories: contract/Definition/  dans "domaine" ... >implementation dans "data"
 // */
 
 abstract class NumberTriviaRepository {
