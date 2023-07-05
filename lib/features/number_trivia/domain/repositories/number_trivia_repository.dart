@@ -10,6 +10,6 @@ import '../entities/number_trivia.dart';
 abstract class NumberTriviaRepository {
   //Future<Either<Failure, NumberTrivia>> A
   //Failure '../../../../core/error/failures.dart';
-  Future<Either<Failure, NumberTrivia>> getConcreteNumberTrivia(int? number);
+  Future<Either<Failure, NumberTrivia>>? getConcreteNumberTrivia(int? number);
   Future<Either<Failure, NumberTrivia>> getRandomNumberTrivia();
 }
